@@ -1,7 +1,7 @@
 #Working on alma
 
 #We install the apache web server
-sudo yum install -y httpd
+sudo dnf install -y httpd
 
 #On alma the service will not be started
 
@@ -26,5 +26,5 @@ ls -ld /var/www/html
 
 
 Using Enterprise Linux, you might expect the defaults to work for you, just as an example
-the file permissions in both the green and red enterprise distributions expect the web server
+the file permissions in both the Ubuntu and RedHat enterprise distributions expect the web server
 to gain access to HTML pages using permissions granted to others!!
