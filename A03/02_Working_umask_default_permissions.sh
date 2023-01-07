@@ -1,11 +1,32 @@
-touch file_perms 
+#Working on ubuntu
 
-chmod -v 666 file_perms # or
+#Touch a file
+touch file1
 
-chmod -v o+w file_perms 
+#List the perms
+ls -l file1
 
+#Check the umask
+umask
 
+#Change the umask
+umask 0
 
-The command chmod, change mode, is used to adjust the file permissions. Using
-the option -v we are able to display both the current and newly assigned
-permissions. We can use either octal or symbolic notation.
+#Check the umask
+umask
+
+#Create a file
+touch file2
+
+#Check the perms
+ls -l file*
+
+#What about directories
+mkdir dir1
+ls -ld dir1
+
+#Change the umask again
+umask 77
+umask
+touch file3
+ls -l file*
