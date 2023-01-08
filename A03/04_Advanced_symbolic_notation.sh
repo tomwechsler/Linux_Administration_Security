@@ -24,6 +24,26 @@ mkdir -p ubuntu/{20,18,16,14}.04/{gold,current}
 #Show the permissions
 ls -lR ubuntu/
 
+#Change the umask again
+umask 022
+
+#Create a new file
+touch newfile2
+
+ls -l newfile2
+
+#Lets change the permissions
+chmod -v +x newfile2
+
+#The x is set because it is allowed by the umask
+
+#Lets change the permissions
+chmod -v +w newfile2
+
+#The w is not set because it is not allowed by the umask
+
+#To change we need the "a"
+chmod -v a+w newfile2
 
 
 
