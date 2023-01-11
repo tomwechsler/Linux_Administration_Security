@@ -6,7 +6,7 @@ ping 1.1
 #The ping perms
 ls -l /usr/bin/ping #No special permissions
 
-#Behind the "perms"
+#In backend the "perms"
 getcap /usr/bin/ping
 
 #Show the capabilities
