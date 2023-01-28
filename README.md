@@ -1,6 +1,6 @@
 # Linux Administration Security
 
-Linux security with three different distributions (Ubuntu, openSUSE and RedHat)!
+Linux security with three different distributions (Ubuntu, openSUSE and Red Hat)!
 
 ## Content of the sections
 
