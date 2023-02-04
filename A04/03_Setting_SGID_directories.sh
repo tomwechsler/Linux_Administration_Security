@@ -16,6 +16,6 @@ touch /admin/newfile
 
 ls -l /admin/newfile
 
-sudo /admin/root2
+sudo touch /admin/root2
 
 ls -l /admin/root2

@@ -1,4 +1,4 @@
-#Working on alma
+#Working on ubuntu
 
 #Simple ping
 ping 1.1
@@ -19,7 +19,7 @@ sudo setcap "" /usr/bin/ping
 ping 1.1
 
 #Change the caps
-sudo setcap "cap_net_raw+p" /usr/bin/ping
+sudo setcap "cap_net_raw+ep" /usr/bin/ping
 
 #Ping does work
 ping 1.1
