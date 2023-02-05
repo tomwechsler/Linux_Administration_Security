@@ -42,7 +42,6 @@ cat /tmp/acl.txt
 #Remove the complete ACL
 sudo setfacl -b /private
 
-
 #Restore from the / directory. Relative paths are used
 cd /
 
@@ -50,10 +49,3 @@ sudo setfacl --restore=/tmp/acl.txt
 
 #Show the acls
 getfacl /private
-
-
-
-Looking at how we set the ACL in more detail:
--m modifies the ACL -- d: in the rule specifies the default ACL
-A user rule must include the username. A rule for others does not 
-contain the username. Here we set no permissions for others

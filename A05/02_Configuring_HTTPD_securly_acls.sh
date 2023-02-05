@@ -29,6 +29,8 @@ getfacl /var/www/html/index.html
 ls -l /var/www/html/index.html
 
 
+
+
 Default ACLs can be applied only to directories. Useful to ensure
 services can maintain the correct access to files whilst restricting 
 others. Setting the default ACL on the Apache DocumentRoot will not
