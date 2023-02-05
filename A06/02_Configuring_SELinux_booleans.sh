@@ -33,5 +33,5 @@ sudo setenforce 0
 
 
 An administrator may quickly change the SELinux mode to allow something to happen
-that is not permitted Setting. The Boolean will require a reboot of the system to 
+that is not a permitted Setting. The Boolean will require a reboot of the system to 
 change the SELinux mode. Use the option -P to persist the change
