@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-FILE = 'mytextfile'
+FILE = 'mytext'
 try:
   open(FILE,'a').close()
   print(f'Created file: {FILE}')

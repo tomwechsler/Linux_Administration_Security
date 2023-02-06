@@ -4,7 +4,7 @@
 vim test.py
 
 #!/usr/bin/python3
-FILE = 'mytextfile'
+FILE = 'mytext'
 try:
   open(FILE,'a').close()
   print(f'Created file: {FILE}')
@@ -13,3 +13,13 @@ except:
   exit(1)
 
 #Save and exit
+
+#Make it executable
+chmod u+x test.py
+
+#Test it
+./test.py
+
+ls
+
+rm mytext
