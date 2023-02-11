@@ -8,6 +8,7 @@ FILE = 'mytext'
 try:
   f = open(FILE,'a')
   f.write("This is text")
+  f.close()
   print(f'Created file: {FILE}')
 except:
   print(f'Failed to create file {FILE}')

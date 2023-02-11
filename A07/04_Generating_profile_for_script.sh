@@ -6,6 +6,9 @@ sudo su -
 #Install rsyslog
 zypper install -y rsyslog
 
+#Start the rsyslog service
+systemctl enable --now rsyslog
+
 #Generate a profile
 aa-genprof test.py
 
