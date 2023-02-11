@@ -1,5 +1,8 @@
 #Working on opensuse
 
+#Start a root session
+sudo su -
+
 #Are there any AppArmor tools
 aa- TABTAB
 

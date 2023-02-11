@@ -1,4 +1,4 @@
-#Working on opensuse
+#Working on opensuse with a root session
 
 #Show the status (no profiles are in complain mode)
 aa-status
@@ -23,4 +23,3 @@ ls /etc/apparmor.d/
 
 #The ntp file
 less /etc/apparmor.d/usr.sbin.ntpd
-

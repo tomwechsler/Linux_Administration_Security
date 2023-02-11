@@ -1,4 +1,4 @@
-#Working on opensuse (two ssh session)
+#Working on opensuse with a root session
 
 #Start a root session
 sudo su -
