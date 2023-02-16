@@ -48,7 +48,7 @@ vagrant destroy alma
 vagrant up alma
 
 #Back on Ubuntu
-ssh -o StrictHostKeyChecking=no 192.168.56.101
+ssh 192.168.56.101
 
 #Change the config
 ssh-keygen -R 192.168.56.101
@@ -61,6 +61,9 @@ Host 192.168.56.*
   UserKnownHostsFile /dev/null
 
 #Save and exit
+
+#Remove the known_hosts file
+rm known_hosts
 
 #Start a session
 ssh 192.168.56.101
