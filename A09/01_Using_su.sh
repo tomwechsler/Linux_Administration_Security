@@ -1,7 +1,7 @@
 #Working on alma with the following preperation steps
 
 sudo passwd vagrant
-sudo usermod .aG wheel vagrant
+sudo usermod -aG wheel vagrant
 exit
 vagrant ssh alma
 
