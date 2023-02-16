@@ -61,7 +61,7 @@ exit
 ssh -o PreferredAuthentications=none 192.168.56.101
 
 #Start a ssh session
-ssh -v 182.168.56.101
+ssh -v 192.168.56.101
 
 #In the output scroll up to see: Server host certificate
 

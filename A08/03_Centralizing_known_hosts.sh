@@ -4,7 +4,7 @@
 rm config
 rm known_hosts
 
-#Show with ssh key to we get from the remote system
+#Show with ssh key-keyscan what we get from the remote system
 ssh-keyscan 192.168.56.101
 
 #We can show a specfic key
