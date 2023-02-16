@@ -14,7 +14,7 @@ ssh-keygen -s server_ca -I alma -h -n 192.168.56.101 -V +52w alma.pub
 #We have now the alma-cert.pub key
 ls
 
-#we copy the pub key
+#We copy the pub key
 scp alma-cert.pub vagrant@192.168.56.101:/tmp/ssh_host_rsa_key-cert.pub
 
 #SSH to alma
@@ -64,5 +64,3 @@ ssh -o PreferredAuthentications=none 192.168.56.101
 ssh -v 192.168.56.101
 
 #In the output scroll up to see: Server host certificate
-
-exitdebug1:
