@@ -9,7 +9,7 @@ man 5 passwd
 #If the man pages are not available
 sudo mandb
 
-sudo dnf install -y man-pages
+sudo dnf install -y man-pages man-db man
 
 sudo mandb
 
