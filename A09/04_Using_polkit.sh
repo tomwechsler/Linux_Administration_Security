@@ -1,4 +1,4 @@
-#Working on alma
+#Working on alma (two ssh sessions)
 
 #List polkit actions
 pkaction
