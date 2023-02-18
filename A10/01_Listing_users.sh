@@ -14,7 +14,7 @@ sudo dnf install -y man-pages man-db man
 sudo mandb
 
 #Check the database
-getend passwd vagrant
+getent passwd vagrant
 
 #Check the Order
 grep passwd /etc/nsswitch.conf

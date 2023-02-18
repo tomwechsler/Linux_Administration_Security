@@ -31,7 +31,7 @@ chage -M 99999 -m 0 -E -1 -I -1 u99
 #by-pass the restrictions in login.defs
 useradd -r u3
 
-echo "P@ssw0rd" | sudo passwd u3 --stdin
+echo "P@ssw0rd" | passwd u3 --stdin
 
 chage -l u3
 
