@@ -24,7 +24,7 @@ ls /etc/ssl/private
 ls /etc/ssl/certs
 
 #We have to edit the apache config file
-vim /etc/apache/sites-available/defaults-ssl.conf
+vim /etc/apache2/sites-available/defaults-ssl.conf
 ServerName ubuntu #Under ServerAdmin
 SSLCertificateKeyFile /etc/ssl/private/ubuntu.key
 SSLCertificateFile /etc/ssl/certs/ubuntu.crt

@@ -15,7 +15,7 @@ file /tmp/ubuntu.csr
 passwd vagrant
 
 #We set the PasswordAuthentication to yes - to be able to use scp
-sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/ssh_config
+sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
 
 #Restart the service
 systemctl restart sshd
