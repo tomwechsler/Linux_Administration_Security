@@ -25,7 +25,7 @@ vim tls.ldif
 ldapmodify -Q -Y EXTERNAL -H ldapi:/// -f tls.ldif # -Q Enable SASL (Simple Authentication and Security Layer); -Y mechanism for authentication; -H ldapuri
 
 #Test
-ldapwhoami -x -ZZ -H ldapi:/// # -ZZ require StartTLS
+ldapwhoami -x -ZZ -H ldap://ubuntu # -ZZ require StartTLS
 
 #Does not work
 ldapwhoami -x -ZZ
