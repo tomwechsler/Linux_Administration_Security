@@ -10,7 +10,11 @@ sudo pam-auth-update --enable mkhomedir
 sudo cp /usr/lib/x86_64/-linux-gnu/sssd/conf/sssd.conf /etc/sssd/sssd.conf
 
 #Change the permissions
-sudo chmod -v 640 /etc/sssd/sssd.conf
+sudo chown root. /etc/sssd/sssd.conf
+
+sudo chmod 0600 /etc/sssd/sssd.conf
+
+sudo systemctl start sssd
 
 #Edit the config file
 sudo vim /etc/sssd/sssd.conf

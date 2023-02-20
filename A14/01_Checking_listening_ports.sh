@@ -7,7 +7,7 @@ ss -ntl
 sudo ss -ntlp
 
 #Specific for ssh
-ss -l '(sport = :ssh)'
+ss -l '( sport = :ssh )'
 
 #List the ip
 ip a sh

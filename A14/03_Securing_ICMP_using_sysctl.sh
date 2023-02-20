@@ -10,7 +10,7 @@ sysctl -ar 'icmp'
 ping localhost
 
 #But if we change the settings (this is not permanent)
-sudo sysctl net.ipv4.icmp_echo_ignore_all=1
+sudo sysctl -w net.ipv4.icmp_echo_ignore_all=1
 
 #The ping will fail
 ping localhost
