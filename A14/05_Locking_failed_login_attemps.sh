@@ -20,8 +20,8 @@ sudo sed -i -E '/^(#|$)/d' /etc/pam.d/common-auth
 #Edit the file
 sudo vim /etc/pam.d/common-auth
 
-#auth required pam_tally2.so deny=3 unlock_time=300
-#Edit auth requisite/required   pam_deny.sh
+auth required pam_tally2.so deny=3 unlock_time=300
+#Edit auth requisite/required   pam_deny.so
 
 #Save and exit
 
