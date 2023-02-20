@@ -25,9 +25,14 @@ sudo vim /etc/sssd/sssd.conf
 
 #Change the permissions
 sudo chmod -v 600 /etc/sssd/sssd.conf
+sudo chown root. /etc/sssd/sssd.conf
 
 #Start the sssd service
 sudo systemctl enable --now sssd
+
+#and restart
+sudo systemctl restart sssd
+
 
 #Test
 su - john
