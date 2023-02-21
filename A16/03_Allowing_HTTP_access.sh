@@ -3,7 +3,7 @@
 sudo -i
 
 #Install apache2
-sudo apt update
+apt update
 
 apt install -y apache2
 
@@ -11,7 +11,7 @@ apt install -y apache2
 curl 192.168.56.102 #It works not
 
 #Set a allow rule
-ufw enable from 192.168.56.101 to any port http
+ufw allow from 192.168.56.101 to any port http
 
 #Check the rules
 ufw status
