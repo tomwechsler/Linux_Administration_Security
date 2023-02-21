@@ -36,7 +36,7 @@ firewall-cmd --zone=internal --add-source=192.168.56.0/24
 firewall-cmd --get-active-zones
 
 #Check
-(from remote) curl 192.168.56.102
+(from remote) curl 192.168.56.101
 
 ip a sh
 
