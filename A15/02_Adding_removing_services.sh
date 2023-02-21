@@ -27,14 +27,14 @@ dnf install httpd
 #Start the service
 systemctl enable --now httpd
 
-(from remote) curl 192.168.56.102
+(from remote) curl 192.168.56.101
 
 #Add http
 firewall-cmd --add-service=http
 
 firewall-cmd --list-all
 
-(from remote) curl 192.168.56.102
+(from remote) curl 192.168.56.101
 
 #List the persistemt config
 firewall-cmd --list-all --permanent
