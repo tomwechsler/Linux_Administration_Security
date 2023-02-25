@@ -1,5 +1,13 @@
 #Working on alma (two ssh sessions)
 
+sudo passwd vagrant
+
+sudo useradd -aG wheel vagrant
+
+exit
+
+vagrant ssh alma
+
 #List polkit actions
 pkaction
 
