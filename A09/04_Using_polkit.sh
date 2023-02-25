@@ -2,7 +2,7 @@
 
 sudo passwd vagrant
 
-sudo useradd -aG wheel vagrant
+sudo usermod -aG wheel vagrant
 
 exit
 
