@@ -10,7 +10,7 @@ sudo systemctl disable --now atd
 dpkg -S atd
 
 #Remove atd
-sudo apt purge atd
+sudo apt purge at
 
 #Also the dependencies
 sudo apt autoremove
