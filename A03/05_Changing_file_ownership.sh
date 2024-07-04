@@ -1,7 +1,7 @@
 #Working on ubuntu
 
 #List the metadata
-ls -l newfile2
+ls -l ubuntu/newfile2
 
 #Check the group membership
 id
@@ -20,19 +20,19 @@ exit
 id
 
 #List the metadata
-ls -l newfile2
+ls -l ubuntu/newfile2
 
 #Change the group (no root need, we belong to the sudo group)
-chgrp sudo newfile2
+chgrp sudo ubuntu/newfile2
 
-ls -l newfile2
+ls -l ubuntu/newfile2
 
 #Change the owner (sudo is needed)
-sudo chown root newfile2
+sudo chown root ubuntu/newfile2
 
-ls -l newfile2
+ls -l ubuntu/newfile2
 
 #Or this way (change both)
-sudo chown vagrant. newfile2 #If nothing comes after the dot the primary group of the user is used
+sudo chown vagrant. ubuntu/newfile2 #If nothing comes after the dot the primary group of the user is used
 
-ls -l newfile2
+ls -l ubuntu/newfile2
