@@ -41,8 +41,3 @@ On directories, new files are assigned the group owner from the directory
 
 Sticky Bit
 With this set users can only delete files they own from shared directories
-
-
-
-It is useful to be able to list files with certain permission set and helps us with security audit. For
-the moment we will become used to setting the permissions and list the top-level directory.
